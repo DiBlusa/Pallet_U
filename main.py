@@ -2,8 +2,8 @@ import pandas as pd
 import itertools
 
 # Carregar as tabelas com caminhos corretos
-tabela_max = pd.read_csv(r"C:\Users\DiBlusa\Documents\Dev File\Python Codes\Pallet_U\Tabelas\Cerâmica e Argamassas dia 28_03 - Página2.csv")
-tabela_deposito = pd.read_csv(r"C:\Users\DiBlusa\Documents\Dev File\Python Codes\Pallet_U\Tabelas\Cerâmica e Argamassas dia 28_03 - Página2 (1).csv")
+tabela_max = pd.read_csv(r"********************************")
+tabela_deposito = pd.read_csv(r"******************************")
 
 # Limpar nomes de colunas
 tabela_max.columns = tabela_max.columns.str.strip()
